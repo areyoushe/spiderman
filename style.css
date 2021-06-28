@@ -1,0 +1,103 @@
+body{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1500px;
+}
+.container{
+   width:50%;
+   height:80vh;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center; 
+}
+
+ .sneaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+ }
+.sneaker img{
+    width:20rem;
+    z-index: 2;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgb(61, 86, 185), rgb(167, 87, 87));
+    position:absolute;
+    z-index: 1;}
+
+    .card{
+        background: rgb(255, 255, 255);
+        width:80%;
+        height:85vh;
+        border-radius: 30px;
+        box-shadow: 0px 0px 40px #585858, 0px 15px 40px #585858;
+        transform-style: preserve-3d;
+    }
+    
+    .link{
+        font-style: none;
+        color: #111010;
+        text-decoration: none;
+    }
+
+.title{
+    font-family: dela gothic one;
+}
+.info{
+    padding-left: 115px;
+    text-align: center;
+    justify-content: center;
+    padding-right: 7.81rem;
+}
+
+.purchase{
+    padding-top:10px;
+}
+
+.active{
+    font-size: 20px;
+    font-family: poppins;
+    width: 70px;
+    color: white ;
+    background-color: grey;
+    border-radius: 30px;}
+
+.one{
+    font-size: 15px;
+    font-family: poppins;
+    width: 50px;
+    background-color: white ;
+    color: grey;
+    border-radius: 30px;
+} 
+    .two{
+        font-size: 15px;
+        font-family: poppins;
+        width: 50px;
+        background-color: white ;
+        color: grey;
+        border-radius: 30px;} 
+        .three{
+            font-size: 15px;
+            font-family: poppins;
+            width: 50px;
+            background-color: white ;
+            color: grey;
+            border-radius: 30px;} 
+
+.buy{
+    font-size: 20px;
+    font-family: poppins;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(110, 39, 39);
+    color: rgb(255, 255, 255);
+
+}
+            
